@@ -1,0 +1,22 @@
+2025-10-24 17:33:10,037 [WARNING] No project ID could be determined. Consider running `gcloud config set project` or setting the GOOGLE_CLOUD_PROJECT environment variable
+2025-10-24 17:33:10,038 [INFO] Starting BigQuery upload process
+2025-10-24 17:33:10,038 [INFO] Starting upload for dim_venue.csv \u2192 dim_venue
+2025-10-24 17:33:10,053 [INFO] Loaded 75 rows from dim_venue.csv
+2025-10-24 17:33:13,891 [INFO] Upload complete: 75 rows loaded into grand-icon-475820-e5.pwhl_analytics_assessment.dim_venue
+2025-10-24 17:33:13,891 [INFO] Starting upload for dim_weather.csv \u2192 dim_weather
+2025-10-24 17:33:13,905 [INFO] Loaded 472 rows from dim_weather.csv
+2025-10-24 17:33:16,758 [INFO] Upload complete: 472 rows loaded into grand-icon-475820-e5.pwhl_analytics_assessment.dim_weather
+2025-10-24 17:33:16,759 [INFO] Starting upload for dim_date.csv \u2192 dim_date
+2025-10-24 17:33:16,770 [INFO] Loaded 15 rows from dim_date.csv
+2025-10-24 17:33:25,903 [INFO] Upload complete: 15 rows loaded into grand-icon-475820-e5.pwhl_analytics_assessment.dim_date
+2025-10-24 17:33:25,903 [INFO] Starting upload for dim_channel.csv \u2192 dim_channel
+2025-10-24 17:33:25,913 [INFO] Loaded 5 rows from dim_channel.csv
+2025-10-24 17:33:29,040 [INFO] Upload complete: 5 rows loaded into grand-icon-475820-e5.pwhl_analytics_assessment.dim_channel
+2025-10-24 17:33:29,040 [INFO] Starting upload for dim_customer.csv \u2192 dim_customer
+2025-10-24 17:33:29,072 [INFO] Loaded 20304 rows from dim_customer.csv
+2025-10-24 17:33:33,735 [INFO] Upload complete: 20304 rows loaded into grand-icon-475820-e5.pwhl_analytics_assessment.dim_customer
+2025-10-24 17:33:33,735 [INFO] Starting upload for fact_ticket_sales.csv \u2192 fact_ticket_sales
+2025-10-24 17:33:33,763 [INFO] Loaded 20304 rows from fact_ticket_sales.csv
+2025-10-24 17:33:33,763 [INFO] Applied clustering fields: ['event_date', 'venue_id', 'channel_id']
+2025-10-24 17:33:38,144 [INFO] Upload complete: 20304 rows loaded into grand-icon-475820-e5.pwhl_analytics_assessment.fact_ticket_sales
+2025-10-24 17:33:38,145 [INFO] All uploads completed successfully

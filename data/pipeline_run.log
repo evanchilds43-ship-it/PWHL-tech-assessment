@@ -1,0 +1,30 @@
+2025-10-23 11:45:10,437 [INFO] Pipeline run started
+2025-10-23 11:45:10,437 [INFO] Starting fetch_weather.py
+2025-10-23 11:45:14,050 [INFO] fetch_weather.py completed successfully
+2025-10-23 11:45:14,051 [INFO] Starting prepare_clean_data.py
+2025-10-23 11:45:15,199 [INFO] prepare_clean_data.py completed successfully
+2025-10-23 11:45:15,199 [INFO] Starting upload_to_bigquery.py
+2025-10-23 11:45:51,159 [INFO] upload_to_bigquery.py completed successfully
+2025-10-23 11:45:51,159 [INFO] Pipeline completed successfully
+2025-10-23 11:45:51,160 [INFO] Total pipeline run time: 0:00:40.722261
+2025-10-23 11:45:51,160 [INFO] Pipeline run finished
+2025-10-24 11:38:29,196 [INFO] Pipeline run started
+2025-10-24 11:38:29,196 [INFO] Starting fetch_weather.py
+2025-10-24 11:38:38,216 [INFO] fetch_weather.py completed successfully
+2025-10-24 11:38:38,216 [INFO] Starting prepare_clean_data.py
+2025-10-24 11:38:39,395 [INFO] prepare_clean_data.py completed successfully
+2025-10-24 11:38:39,395 [INFO] Starting upload_to_bigquery.py
+2025-10-24 11:39:09,749 [INFO] upload_to_bigquery.py completed successfully
+2025-10-24 11:39:09,749 [INFO] Pipeline completed successfully
+2025-10-24 11:39:09,749 [INFO] Total pipeline run time: 0:00:40.552850
+2025-10-24 11:39:09,749 [INFO] Pipeline run finished
+2025-10-24 17:32:58,290 [INFO] Pipeline run started
+2025-10-24 17:32:58,290 [INFO] Starting fetch_weather.py
+2025-10-24 17:33:03,124 [INFO] fetch_weather.py completed successfully
+2025-10-24 17:33:03,124 [INFO] Starting prepare_clean_data.py
+2025-10-24 17:33:04,310 [INFO] prepare_clean_data.py completed successfully
+2025-10-24 17:33:04,310 [INFO] Starting upload_to_bigquery.py
+2025-10-24 17:33:38,291 [INFO] upload_to_bigquery.py completed successfully
+2025-10-24 17:33:38,291 [INFO] Pipeline completed successfully
+2025-10-24 17:33:38,291 [INFO] Total pipeline run time: 0:00:40.000664
+2025-10-24 17:33:38,291 [INFO] Pipeline run finished

@@ -1,0 +1,27 @@
+2025-10-23 11:45:13,817 [INFO] Fetched weather data for Toronto: 59 rows
+2025-10-23 11:45:13,834 [INFO] Fetched weather data for Montreal: 59 rows
+2025-10-23 11:45:13,850 [INFO] Fetched weather data for New York: 59 rows
+2025-10-23 11:45:13,867 [INFO] Fetched weather data for Boston: 59 rows
+2025-10-23 11:45:13,884 [INFO] Fetched weather data for Seattle: 59 rows
+2025-10-23 11:45:13,903 [INFO] Fetched weather data for Ottawa: 59 rows
+2025-10-23 11:45:13,920 [INFO] Fetched weather data for Minnesota: 59 rows
+2025-10-23 11:45:13,936 [INFO] Fetched weather data for Vancouver: 59 rows
+2025-10-23 11:45:13,949 [INFO] Saved combined weather data to ../data\weather_jan_feb_2025.csv
+2025-10-24 11:38:34,508 [INFO] Fetched weather data for Toronto: 59 rows
+2025-10-24 11:38:35,143 [INFO] Fetched weather data for Montreal: 59 rows
+2025-10-24 11:38:35,510 [INFO] Fetched weather data for New York: 59 rows
+2025-10-24 11:38:36,195 [INFO] Fetched weather data for Boston: 59 rows
+2025-10-24 11:38:36,672 [INFO] Fetched weather data for Seattle: 59 rows
+2025-10-24 11:38:37,048 [INFO] Fetched weather data for Ottawa: 59 rows
+2025-10-24 11:38:37,611 [INFO] Fetched weather data for Minnesota: 59 rows
+2025-10-24 11:38:38,101 [INFO] Fetched weather data for Vancouver: 59 rows
+2025-10-24 11:38:38,112 [INFO] Saved combined weather data to ../data\weather_jan_feb_2025.csv
+2025-10-24 17:33:02,893 [INFO] Fetched weather data for Toronto: 59 rows
+2025-10-24 17:33:02,910 [INFO] Fetched weather data for Montreal: 59 rows
+2025-10-24 17:33:02,929 [INFO] Fetched weather data for New York: 59 rows
+2025-10-24 17:33:02,945 [INFO] Fetched weather data for Boston: 59 rows
+2025-10-24 17:33:02,963 [INFO] Fetched weather data for Seattle: 59 rows
+2025-10-24 17:33:02,979 [INFO] Fetched weather data for Ottawa: 59 rows
+2025-10-24 17:33:02,996 [INFO] Fetched weather data for Minnesota: 59 rows
+2025-10-24 17:33:03,012 [INFO] Fetched weather data for Vancouver: 59 rows
+2025-10-24 17:33:03,025 [INFO] Saved combined weather data to ../data\weather_jan_feb_2025.csv

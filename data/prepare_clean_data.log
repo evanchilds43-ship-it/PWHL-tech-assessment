@@ -1,0 +1,23 @@
+2025-10-24 17:33:03,840 [INFO] Starting data cleaning and preparation process
+2025-10-24 17:33:03,841 [INFO] Loading raw datasets
+2025-10-24 17:33:03,933 [INFO] Datasets loaded successfully: 20304 tickets, 75 sections, 472 weather rows
+2025-10-24 17:33:03,933 [INFO] Cleaning ticket sales data (20304 rows before cleaning)
+2025-10-24 17:33:03,966 [INFO] Dropped 0 invalid ticket rows with missing essential fields
+2025-10-24 17:33:03,971 [INFO] Ticket sales cleaned successfully: 20304 rows remain
+2025-10-24 17:33:03,971 [INFO] Cleaning section capacity data (75 rows)
+2025-10-24 17:33:03,975 [INFO] Dropped 0 invalid section rows
+2025-10-24 17:33:03,975 [INFO] Section capacity cleaned successfully: 75 valid rows remain
+2025-10-24 17:33:03,975 [INFO] Cleaning weather data (472 rows)
+2025-10-24 17:33:03,979 [WARNING] Filling 122 missing values in snow_mm with 0
+2025-10-24 17:33:03,980 [WARNING] Filling 472 missing values in wind_dir_deg with 0
+2025-10-24 17:33:03,981 [WARNING] Filling 356 missing values in wind_gust_kmh with 0
+2025-10-24 17:33:03,982 [WARNING] Filling 472 missing values in sun_hours with 0
+2025-10-24 17:33:03,983 [INFO] Dropped 0 rows with null city or date
+2025-10-24 17:33:03,984 [INFO] Weather data cleaned successfully: 472 rows remain
+2025-10-24 17:33:03,984 [INFO] Creating dimension tables
+2025-10-24 17:33:04,009 [INFO] Dimension tables created successfully
+2025-10-24 17:33:04,009 [INFO] Building fact table
+2025-10-24 17:33:04,072 [INFO] Fact table built successfully with 20304 rows
+2025-10-24 17:33:04,072 [INFO] Saving cleaned dimension and fact tables
+2025-10-24 17:33:04,212 [INFO] All tables saved successfully
+2025-10-24 17:33:04,212 [INFO] Data cleaning and preparation process completed
