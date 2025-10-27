@@ -116,8 +116,11 @@ for col in numeric_cols:
     weather[col] = pd.to_numeric(weather[col], errors="coerce")
     missing = weather[col].isna().sum()
     if missing > 0:
-        logging.warning(f"Filling {missing} missing values in {col} with 0")
-        weather[col] = weather[col].fillna(0)
+        if col in ["precip_mm", "snow_mm"]:
+            logging.warning(f"Filling {missing} missing values in {col} with 0")
+            weather[col] = weather[col].fillna(0)
+        else:
+            logging.warning(f"Keeping {missing} missing values in {col} as NaN (unknown)")
 
 weather["city"] = weather["city"].astype(str).str.lower()
 before_drop_weather = len(weather)
