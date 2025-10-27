@@ -148,7 +148,7 @@ dim_date["weekday_name"] = dim_date["event_date"].dt.strftime("%A").str.lower()
 dim_date["is_weekend"] = dim_date["weekday"].isin([6, 7]).astype(int)
 dim_date["week_of_year"] = dim_date["event_date"].dt.isocalendar().week
 
-dim_venue = sections[["section", "section_capacity", "home_city"]].drop_duplicates().reset_index(drop=True)
+dim_venue = sections[["event_date", "section", "home_city", "section_capacity"]].drop_duplicates().reset_index(drop=True)
 dim_venue["venue_id"] = dim_venue.index + 1
 
 dim_weather = weather.drop_duplicates(subset=["event_date", "city"]).reset_index(drop=True)
@@ -174,11 +174,19 @@ fact_sales = tickets.merge(dim_date, on="event_date", how="left")
 fact_sales = fact_sales.merge(dim_channel, on="purchase_channel", how="left")
 fact_sales = fact_sales.merge(dim_customer, on="acct_id", how="left")
 
-# Joining fact table to venue section capcity data. I have to make the assumption that event_date is a unique key to join the sets
+# Joining fact table to venue section capcity data. Include event_date in the dim_venue table to allow for total capacity calculations
+
 fact_sales = fact_sales.merge(
-    sections[["event_date", "section", "section_capacity", "home_city"]],
-    on=["event_date", "section"], how="left"
-).merge(dim_venue, on=["section", "section_capacity", "home_city"], how="left")
+    sections[["event_date", "section", "home_city"]],
+    on=["event_date", "section"],
+    how="left"
+)
+
+fact_sales = fact_sales.merge(
+    dim_venue[["event_date", "section", "home_city", "venue_id"]],
+    on=["event_date", "section", "home_city"],
+    how="left"
+)
 
 # Now that we have the city, weather_id can be pulled in
 fact_sales = fact_sales.merge(

@@ -25,3 +25,12 @@
 2025-10-24 17:33:02,996 [INFO] Fetched weather data for Minnesota: 59 rows
 2025-10-24 17:33:03,012 [INFO] Fetched weather data for Vancouver: 59 rows
 2025-10-24 17:33:03,025 [INFO] Saved combined weather data to ../data\weather_jan_feb_2025.csv
+2025-10-27 14:35:25,191 [INFO] Fetched weather data for Toronto: 59 rows
+2025-10-27 14:35:25,505 [INFO] Fetched weather data for Montreal: 59 rows
+2025-10-27 14:35:26,027 [INFO] Fetched weather data for New York: 59 rows
+2025-10-27 14:35:26,607 [INFO] Fetched weather data for Boston: 59 rows
+2025-10-27 14:35:27,097 [INFO] Fetched weather data for Seattle: 59 rows
+2025-10-27 14:35:27,702 [INFO] Fetched weather data for Ottawa: 59 rows
+2025-10-27 14:35:27,862 [INFO] Fetched weather data for Minnesota: 59 rows
+2025-10-27 14:35:28,211 [INFO] Fetched weather data for Vancouver: 59 rows
+2025-10-27 14:35:28,222 [INFO] Saved combined weather data to ../data\weather_jan_feb_2025.csv

@@ -1,76 +1,76 @@
-section,section_capacity,home_city,venue_id
-lower bowl,2721,minnesota,1
-upper bowl,2721,minnesota,2
-club,1166,minnesota,3
-suite,777,minnesota,4
-standing room,388,minnesota,5
-lower bowl,2677,boston,6
-upper bowl,2677,boston,7
-club,1147,boston,8
-suite,765,boston,9
-standing room,382,boston,10
-lower bowl,2855,toronto,11
-upper bowl,2855,toronto,12
-club,1223,toronto,13
-suite,815,toronto,14
-standing room,407,toronto,15
-lower bowl,2964,ottawa,16
-upper bowl,2964,ottawa,17
-club,1270,ottawa,18
-suite,847,ottawa,19
-standing room,423,ottawa,20
-lower bowl,2961,new york,21
-upper bowl,2961,new york,22
-club,1269,new york,23
-suite,846,new york,24
-standing room,423,new york,25
-lower bowl,2632,montreal,26
-upper bowl,2632,montreal,27
-club,1128,montreal,28
-suite,752,montreal,29
-standing room,376,montreal,30
-lower bowl,2807,minnesota,31
-upper bowl,2807,minnesota,32
-club,1203,minnesota,33
-suite,802,minnesota,34
-standing room,401,minnesota,35
-lower bowl,2646,boston,36
-upper bowl,2646,boston,37
-club,1134,boston,38
-suite,756,boston,39
-standing room,378,boston,40
-lower bowl,2747,toronto,41
-upper bowl,2747,toronto,42
-club,1177,toronto,43
-suite,785,toronto,44
-standing room,392,toronto,45
-lower bowl,2706,ottawa,46
-upper bowl,2706,ottawa,47
-club,1159,ottawa,48
-suite,773,ottawa,49
-standing room,386,ottawa,50
-lower bowl,2675,new york,51
-upper bowl,2675,new york,52
-club,1146,new york,53
-suite,764,new york,54
-standing room,382,new york,55
-lower bowl,2868,montreal,56
-upper bowl,2868,montreal,57
-club,1229,montreal,58
-suite,819,montreal,59
-standing room,409,montreal,60
-lower bowl,2718,seattle,61
-upper bowl,2718,seattle,62
-club,1165,seattle,63
-suite,776,seattle,64
-standing room,388,seattle,65
-lower bowl,2844,vancouver,66
-upper bowl,2844,vancouver,67
-club,1219,vancouver,68
-suite,812,vancouver,69
-standing room,406,vancouver,70
-lower bowl,2783,seattle,71
-upper bowl,2783,seattle,72
-club,1193,seattle,73
-suite,795,seattle,74
-standing room,397,seattle,75
+event_date,section,home_city,section_capacity,venue_id
+2025-01-01,lower bowl,minnesota,2721,1
+2025-01-01,upper bowl,minnesota,2721,2
+2025-01-01,club,minnesota,1166,3
+2025-01-01,suite,minnesota,777,4
+2025-01-01,standing room,minnesota,388,5
+2025-01-04,lower bowl,boston,2677,6
+2025-01-04,upper bowl,boston,2677,7
+2025-01-04,club,boston,1147,8
+2025-01-04,suite,boston,765,9
+2025-01-04,standing room,boston,382,10
+2025-01-08,lower bowl,toronto,2855,11
+2025-01-08,upper bowl,toronto,2855,12
+2025-01-08,club,toronto,1223,13
+2025-01-08,suite,toronto,815,14
+2025-01-08,standing room,toronto,407,15
+2025-01-13,lower bowl,ottawa,2964,16
+2025-01-13,upper bowl,ottawa,2964,17
+2025-01-13,club,ottawa,1270,18
+2025-01-13,suite,ottawa,847,19
+2025-01-13,standing room,ottawa,423,20
+2025-01-17,lower bowl,new york,2961,21
+2025-01-17,upper bowl,new york,2961,22
+2025-01-17,club,new york,1269,23
+2025-01-17,suite,new york,846,24
+2025-01-17,standing room,new york,423,25
+2025-01-22,lower bowl,montreal,2632,26
+2025-01-22,upper bowl,montreal,2632,27
+2025-01-22,club,montreal,1128,28
+2025-01-22,suite,montreal,752,29
+2025-01-22,standing room,montreal,376,30
+2025-01-27,lower bowl,minnesota,2807,31
+2025-01-27,upper bowl,minnesota,2807,32
+2025-01-27,club,minnesota,1203,33
+2025-01-27,suite,minnesota,802,34
+2025-01-27,standing room,minnesota,401,35
+2025-01-31,lower bowl,boston,2646,36
+2025-01-31,upper bowl,boston,2646,37
+2025-01-31,club,boston,1134,38
+2025-01-31,suite,boston,756,39
+2025-01-31,standing room,boston,378,40
+2025-02-03,lower bowl,toronto,2747,41
+2025-02-03,upper bowl,toronto,2747,42
+2025-02-03,club,toronto,1177,43
+2025-02-03,suite,toronto,785,44
+2025-02-03,standing room,toronto,392,45
+2025-02-08,lower bowl,ottawa,2706,46
+2025-02-08,upper bowl,ottawa,2706,47
+2025-02-08,club,ottawa,1159,48
+2025-02-08,suite,ottawa,773,49
+2025-02-08,standing room,ottawa,386,50
+2025-02-13,lower bowl,new york,2675,51
+2025-02-13,upper bowl,new york,2675,52
+2025-02-13,club,new york,1146,53
+2025-02-13,suite,new york,764,54
+2025-02-13,standing room,new york,382,55
+2025-02-18,lower bowl,montreal,2868,56
+2025-02-18,upper bowl,montreal,2868,57
+2025-02-18,club,montreal,1229,58
+2025-02-18,suite,montreal,819,59
+2025-02-18,standing room,montreal,409,60
+2025-02-21,lower bowl,seattle,2718,61
+2025-02-21,upper bowl,seattle,2718,62
+2025-02-21,club,seattle,1165,63
+2025-02-21,suite,seattle,776,64
+2025-02-21,standing room,seattle,388,65
+2025-02-24,lower bowl,vancouver,2844,66
+2025-02-24,upper bowl,vancouver,2844,67
+2025-02-24,club,vancouver,1219,68
+2025-02-24,suite,vancouver,812,69
+2025-02-24,standing room,vancouver,406,70
+2025-02-28,lower bowl,seattle,2783,71
+2025-02-28,upper bowl,seattle,2783,72
+2025-02-28,club,seattle,1193,73
+2025-02-28,suite,seattle,795,74
+2025-02-28,standing room,seattle,397,75
